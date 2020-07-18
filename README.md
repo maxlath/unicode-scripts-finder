@@ -12,7 +12,7 @@ To use the JS module in a project:
 npm i unicode-scripts-finder
 ```
 
-To use the CLI, rather install it globally to make the command `unicode-scripts-finder` available in your $PATH:
+To use the CLI, rather install it globally to make the command `unicode-scripts-finder` available in your `$PATH`:
 ```sh
 npm i -g unicode-scripts-finder
 ```
