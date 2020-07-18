@@ -1,6 +1,8 @@
 # unicode-scripts-finder
 
-Find which unicode scripts a text is using
+> There are 143,859 characters, with Unicode 13.0, covering 154 modern and historical scripts, as well as multiple symbol sets [[wikipedia: List of Unicode characters](https://en.wikipedia.org/wiki/List_of_Unicode_characters)]
+
+Find which unicode scripts a text is using.
 
 Status: WIP but already somewhat useful
 
