@@ -20,18 +20,13 @@ npm i -g unicode-scripts-finder
 const unicodeScriptsFinder = require('unicode-scripts-finder')
 
 unicodeScriptsFinder('Lorem ipsum dolor sit amet')
+// => [ { label: 'Latin', count: 370 } ]
 
-  [ { label: 'Latin', count: 370 }
-]
+unicodeScriptsFinder('ἀπόστασις')
+// => [ { label: 'Greek', count: 9 } ]
 
-unicodeScriptsFinder('ἀπόστασις').should.deepEqual([
-  { label: 'Greek', count: 9 }
-])
-
-unicodeScriptsFinder('Lorem ipsum ἀπόστασις').should.deepEqual([
-  { label: 'Latin', count: 10 },
-  { label: 'Greek', count: 9 }
-])
+unicodeScriptsFinder('Lorem ipsum ἀπόστασις')
+// => [ { label: 'Latin', count: 10 }, { label: 'Greek', count: 9 } ]
 ```
 
 ## CLI
