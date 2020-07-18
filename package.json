@@ -14,6 +14,7 @@
   ],
   "author": "maxlath",
   "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^7.1.1",
     "should": "^13.2.3"
@@ -26,7 +27,6 @@
     "lib": "lib",
     "test": "test"
   },
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maxlath/unicode-scripts-finder.git"
