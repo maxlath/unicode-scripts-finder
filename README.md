@@ -1,3 +1,40 @@
 # unicode-scripts-finder
 
-find which unicode scripts a text is using
+Find which unicode scripts a text is using
+
+Status: WIP but already somewhat useful
+
+## Install
+To use the JS module in a project:
+```sh
+npm i unicode-scripts-finder
+```
+
+To use the CLI, rather install it globally to make the command `unicode-scripts-finder` available in your $PATH:
+```sh
+npm i -g unicode-scripts-finder
+```
+
+## Module
+```js
+const unicodeScriptsFinder = require('unicode-scripts-finder')
+
+unicodeScriptsFinder('Lorem ipsum dolor sit amet')
+
+  [ { label: 'Latin', count: 370 }
+]
+
+unicodeScriptsFinder('ἀπόστασις').should.deepEqual([
+  { label: 'Greek', count: 9 }
+])
+
+unicodeScriptsFinder('Lorem ipsum ἀπόστασις').should.deepEqual([
+  { label: 'Latin', count: 10 },
+  { label: 'Greek', count: 9 }
+])
+```
+
+## CLI
+```sh
+unicode-scripts-finder Lorem ipsum dolor sit amet
+```
