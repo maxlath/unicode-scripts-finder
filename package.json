@@ -1,6 +1,6 @@
 {
   "name": "unicode-scripts-finder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "find which unicode scripts a text is using ",
   "main": "lib/unicode_scripts_finder.js",
   "bin": {
