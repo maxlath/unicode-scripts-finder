@@ -34,4 +34,10 @@ unicodeScriptsFinder('Lorem ipsum ἀπόστασις')
 ## CLI
 ```sh
 unicode-scripts-finder Lorem ipsum dolor sit amet
+# => [
+#   {
+#     "label": "Latin",
+#     "count": 22
+#   }
+# ]
 ```
