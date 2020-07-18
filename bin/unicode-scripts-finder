@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+const unicodeScriptsFinder = require('../lib/unicode_scripts_finder.js')
+const text = process.argv.slice(2).join(' ')
+const data = unicodeScriptsFinder(text)
+console.log(JSON.stringify(data, null, 2))

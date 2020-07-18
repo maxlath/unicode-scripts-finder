@@ -2,7 +2,10 @@
   "name": "unicode-scripts-finder",
   "version": "1.0.0",
   "description": "find which unicode scripts a text is using ",
-  "main": "index.js",
+  "main": "lib/unicode_scripts_finder.js",
+  "bin": {
+    "unicode-scripts-finder": "bin/unicode-scripts-finder"
+  },
   "scripts": {
     "test": "mocha"
   },
