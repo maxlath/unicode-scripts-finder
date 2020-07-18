@@ -1,16 +1,31 @@
 {
   "name": "unicode-scripts-finder",
   "version": "1.0.0",
-  "description": "",
+  "description": "find which unicode scripts a text is using ",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "unicode"
+  ],
+  "author": "maxlath",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "^7.1.1",
     "should": "^13.2.3"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxlath/unicode-scripts-finder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxlath/unicode-scripts-finder/issues"
+  },
+  "homepage": "https://github.com/maxlath/unicode-scripts-finder#readme"
 }
